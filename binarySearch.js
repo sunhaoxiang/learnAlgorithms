@@ -4,7 +4,7 @@ function binarySearch (list, item) {
   let high = list.length - 1
 
   while (low <= high) { // 只要范围没有缩小到只包含一个元素
-    let mid = parseInt((low + high) / 2) // 就检查中间的元素
+    let mid = Math.round((low + high) / 2) // 就检查中间的元素
     let guess = list[mid]
 
     if (guess === item) { // 找到了元素
