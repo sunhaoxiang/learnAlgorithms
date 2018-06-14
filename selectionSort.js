@@ -3,7 +3,7 @@ function findSmallest (arr) {
   let smallest = arr[0] // 储存最小的值
   let smallestIndex = 0 // 储存最小的元素
 
-  for (let i=0; i<arr.length; i++) {
+  for (let i = 0; i < arr.length; i++) {
     if (arr[i] < smallest) {
       smallest = arr[i]
       smallestIndex = i
@@ -18,7 +18,7 @@ function selectionSort (arr) {
   let newArr = []
   let len = arr.length
 
-  for (let i=0; i<len; i++) {
+  for (let i = 0; i < len; i++) {
     let smallest = findSmallest(arr) // 最小的元素
     newArr.push(...arr.splice(smallest, 1)) // 将最小的元素从原数组剔除，并加入到新数组
   }
