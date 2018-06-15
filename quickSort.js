@@ -8,7 +8,7 @@ function quickSort(arr) {
   let greater = [] // 大于基准值的放入此数组
 
   for (let i = 0; i < arr.length; i++) {
-    if (i === pivotIndex) {
+    if (i === pivotIndex) { // 跳过基准值
       continue
     }
 
