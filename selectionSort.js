@@ -1,5 +1,5 @@
 // 找出最小的元素
-function findSmallest (arr) {
+function findSmallest(arr) {
   let smallest = arr[0] // 储存最小的值
   let smallestIndex = 0 // 储存最小的元素
 
@@ -14,7 +14,7 @@ function findSmallest (arr) {
 }
 
 // 对数组进行排序
-function selectionSort (arr) {
+function selectionSort(arr) {
   let newArr = []
   let len = arr.length
 

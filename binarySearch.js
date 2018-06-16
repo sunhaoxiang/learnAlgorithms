@@ -1,4 +1,4 @@
-function binarySearch (list, item) {
+function binarySearch(list, item) {
   // low和high用于跟踪要在其中查找的列表部分
   let low = 0
   let high = list.length - 1
